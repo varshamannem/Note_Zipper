@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 
-const notes=require('./data/notes')
+const notes=require('../frontend/src/data/notes')
 
 const dotenv = require('dotenv')
 
